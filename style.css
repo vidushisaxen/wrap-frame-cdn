@@ -35,6 +35,10 @@ body{
 .alert-warning{
     background-color: #FDFDBD;
 }
+.alert-heading{
+    margin: 1rem;
+    font-size: 2rem;
+}
 .button{
     height: 4rem;
     width: 15rem;
@@ -84,4 +88,13 @@ body{
     height: 30rem;
     width: 15rem;
     
+}
+.navbar{
+    height: 3rem;
+    list-style-type: none;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
 }
