@@ -2,16 +2,18 @@
     font-family: 'Signika Negative', sans-serif;
     margin: 0;
     padding: 0;
-    
+}
+body{
+    background-color: #daf3f8;
 }
 .alert{
-    height: 8rem;
+    height: 5rem;
     width: 50rem;
     background-color: white;
     border-radius: 5px;
     margin: 3rem;
     color: black;
-    font-size: 2rem;
+    
     padding: 5px;
 }
 .msg{
@@ -34,6 +36,7 @@
 .alert-heading{
     margin: 1rem;
     font-size: 2rem;
+    
 }
 .button{
     height: 4rem;
@@ -191,7 +194,7 @@
 .navlogo{
     border-radius: 50%;
     margin-left: 40px;
-    padding: 5px;
+    padding: 0px;
 }
 .nav-txt{
     margin-top: 20px;
@@ -253,6 +256,13 @@
     font-weight: 600;
 }
 
+.choose{
+    height: 30px;
+    border-radius: 5px;
+    margin-top: -5px;
+    border: 2px solid black;
+}
+
 
 .sp_one::before{
    content: "";
@@ -260,8 +270,9 @@
    position: absolute;
    top: 10%;
    left: 10%;
-   height: 50px;
-   width: 50px;
+   margin-bottom: 100px;
+   height: 40px;
+   width: 40px;
    border-radius: 50%;
    border: 5px solid gray;
    border-top-color:black ;
@@ -296,4 +307,696 @@
     to{
         transform: rotate(700deg);
     }
+}
+
+
+/* pills */
+
+.basicpill{
+    height: 35px;
+    width: 80px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 20px;
+}
+.bp_one{
+    background-color: #8D9EFF;
+}
+.bp_two{
+    background-color: #FD841F;
+}
+.bp_three{
+    background-color: #9E7676;
+}
+.bp_four{
+    background-color: #FF8787;
+}
+.brp_one{
+    border: 2px solid black;
+    background-color: transparent;
+    color: black;
+}
+.brp_two{
+    border: 2px solid #224B0C;
+    background-color: transparent;
+    color: #224B0C;
+}
+.brp_three{
+    border: 2px solid #2192FF;
+    background-color: transparent;
+    color: #2192FF;
+}
+.brp_four{
+    border: 2px solid #FF1E1E;
+    background-color: transparent;
+    color: #FF1E1E;
+}
+
+.thick{
+    border-width: 4px;
+}
+.thin{
+    border-width: 1px;
+}
+
+.circular{
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.square{
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+/* Avatar */
+.p_avatar{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid black;
+    position: relative;
+    margin-left:40px ;
+}
+.phead{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 5px solid black;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+}
+.pbody{
+    height: 20px;
+    width: 50px;
+    border-radius: 50% 50% 0% 0%;
+    border: 5px solid black;
+    position: absolute;
+    top: 53px;
+    left: 20px;
+}
+.pic{
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-left: 40px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.top_head{
+    height: 40vh;
+    width: 100vw;
+}
+.header_one{
+    background-color: rgb(240, 239, 239);
+    height: 60vh;
+    width: 100vw;
+}
+.search_head{
+    height: 40px;
+    width: 400px;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    left: 700px;
+    top: -25px;
+}
+
+.header_one_logo{
+    border-radius: 50%;
+    position: relative;
+    left: 700px;
+    top: -5px;
+    margin-left: 5px;
+}
+.bottom_head{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -20px;
+    justify-content: space-evenly;
+}
+.left_head_one{
+    height: 250px;
+    width: 500px;
+    border: 3px solid #DFDFDE;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+.right_head_one{
+    height: 250px;
+    width: 700px;
+    border: 3px solid #DFDFDE;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.double_header{
+    height: 15vh;
+    width: 100vw;
+    background-color:rgb(240, 239, 239) ;
+}
+.dhtop{
+    height: 7vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.dhbottom{
+    height: 7vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.dhlink{
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 5px;
+    padding: 10px;
+    
+}
+.dhright{
+   position: relative;
+   left: 600px;
+   top: 10px;
+}
+.dhsearch{
+      top: 0px;
+      height: 35px;
+      width: 350px;
+      margin-top: 2px;
+      border: 1px solid black;
+      border-radius: 10px;
+}
+.hr{
+    background-color: lightgray;
+    height: 1.5px;
+}
+.dhitop{
+    background-color: #1E3163;
+    color: white;
+}
+.dhilink{
+    color: white;
+    margin: 5px;
+}
+.dhicon{
+    border-radius: 50%;
+    margin-top: -10px;
+}
+.dhiright{
+    position: relative;
+   left: 800px;
+   top: 10px;
+}
+.dhisearch{
+    border: 2px solid lightgray;
+    border-radius: 20px;
+    height: 30px;
+    width: 300px;
+    position: relative;
+    left: 800px;
+}
+.footer{
+    background-color: #1E3163;
+    color: white;
+    height: 30vh;
+    width: 100vw;
+}
+.footer_icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ficon{
+    position: relative;
+    top:30px;
+    margin-left: 20px; 
+}
+.footer_links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flink{
+    text-decoration: none;
+    position: relative;
+    top: 30px;
+    left: 100px;
+    margin-left: 10px;
+}
+.flinks{
+    color: white;
+    display: inline;
+    flex-wrap: wrap;
+    list-style-type: disc;
+}
+.flinkp{
+    position: relative;
+    top: 50px;
+    left:-150px;
+    padding-top: 20px;
+}
+.copy{
+    color: darkgray;
+    position: relative;
+    top: 50px;
+    left: 500px;
+}
+.fone{
+    height: 190px;
+    background-color: rgb(41, 41, 41);
+    margin-left: -10px;
+    margin-top: -5px;
+    margin-right: -15px;
+    color: white;
+    position: relative;
+}
+    
+.fimg{
+    margin-left: 100px;
+    margin-top: 35px;
+}
+.txt{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.fotext{
+    position: relative;
+    top: 90px;
+    margin-left: 20px;
+}
+.fimg2{
+    height: 100px;
+    width: 100px;
+    margin-left: 850px;
+    margin-bottom: 70px;
+    background-color: rgb(41, 41, 41);
+    border-radius: 50%;
+    position: relative;
+    top: -70px;
+    left:300px
+}
+footer{
+    height: 50px;
+    background-color: rgb(24, 24, 24);
+    margin-top: -10px;
+    margin-right: -15px;
+  margin-left: -15px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.ftext{
+       margin-left: 150px;
+       margin-top: 10px;
+       font-size: 12px;
+}
+.final{
+    height: 10px;
+    width: 10px;
+}
+.gallery{
+    height: 50vh;
+    width: 40vw;
+    /* border: 2px solid darkgray; */
+    margin: 30px;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #EEEEEE;
+}
+.nature{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border: 1px solid gray;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card_gallery{
+    height: 80vh;
+    width: 60vw;
+    background-color: rgb(173, 173, 173);
+    border-radius: 10px;
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.gcard{
+    height: 200px;
+    width: 150px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.gimg{
+    height: 100px;
+    width: 150px;
+}
+.ghead{
+    margin-left: 5px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cgtxt{
+    font-size: 12px;
+    margin-left: 5px;
+}
+.cgbtn{
+    height: 25px;
+    width: 70px;
+    margin-left: 40px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: #B8E8FC;
+    border:none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.cgbtn:hover{
+    background-color: #BCCEF8;
+}
+
+
+@media (max-width:480px){
+    .alert{
+        height: 80px;
+        width: 370px;
+        margin-left: 5px;
+    }
+
+    .card{
+        width: 250px;
+    }
+    .card_one{
+        height: 290px;
+        overflow: hidden;
+        /* display: flex;
+        flex-wrap: wrap; */
+    }
+    .card_two{
+        height: 500px;
+    }
+    .card_three{
+        height: 300px;
+    }
+    .card_img{
+        height: 150px;
+        width: 150px;
+    }
+    .only_list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .sp_one{
+        position: absolute;
+        top: 5%;
+        left: 5%;
+    }
+    .search{
+        position:relative;
+    top: -20px;
+    left: 20px;
+    }
+    .search_bar{
+        width: 100px;
+    }
+    .search_button{
+        width: 60px;
+        margin-left: 3px;
+    }
+    .basicpill{
+        margin-top: 20px;
+    }
+    .header_one{
+         height: 25vh;
+    }
+    .top_head{
+        height: 5vh;
+    }
+    .bottom_head{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .search_head{
+        width: 150px;
+        height: 20px;
+        position: relative;
+        left: 80px;
+    }
+    .header_one_logo{
+        position: relative;
+        left: 80px;
+        height: 40px;
+        width: 40px;
+    }
+    .left_head_one{
+        height: 100px;
+        width: 150px;
+        margin-top: 20px;
+    }
+    .right_head_one{
+        height: 100px;
+        width: 190px;
+        margin-top: 20px;
+    }
+    .dhlink{
+        font-size: 10px;
+    }
+    .dhright{
+        position: relative;
+        left: 280px;
+        top: -32px;
+    }
+    .dhsearch{
+        position: relative;
+        top: 10px;
+        left: 130px;
+    }
+    .dhicon{
+        margin: 0px;
+    
+    }
+    .dhilink{
+        position: relative;
+        left: -200px;
+        
+    }
+    .dhisearch{
+        position: relative;
+        left: 50px;
+        top: 10px;
+        width: 200px;
+    }
+    .ficon{
+        height: 30px;
+        width: 30px;
+    }
+    .flink{
+        position: relative;
+        top: 40px;
+        left: 10px;
+    }
+    .flinkp{
+        position: relative;
+        top: 40px;
+        left: 60px;
+    }
+    .copy{
+        position: relative;
+        top: 80px;
+        left: 90px;
+    }
+    .fimg{
+        height: 80px;
+        width: 80px;
+        position: relative;
+        top: 40px;
+        left: 30px;
+        margin: 0px;
+    }
+    .fotext{
+        margin-left: 40px;
+        margin-top: -20px;
+    }
+    .ftext{
+        margin-left: 20px;
+    }
+    .fimg2{
+        height: 40px;
+        width: 40px;
+        position: relative;
+        top: 50px;
+        left: -500px;
+    }
+    .gallery{
+        height: 52vh;
+        width: 97vw;
+        margin-left: 10px;
+    }
+    .card_gallery{
+        height: 65vh;
+        width: 95vw;
+        margin-left: 10px;
+    }
+    .gcard{
+        height: 150px;
+        width: 100px;
+    }
+    .gimg{
+        height: 50px;
+        width: 100px;
+    }
+    .cgtxt{
+        font-size: 10px;
+    }
+    .cgbtn{
+        height: 15px;
+        width: 50px;
+        margin-left: 20px;
+    }
+}
+
+
+@media (min-width:481px) and (max-width:810px){
+    .alert{
+        height: 80px;
+        width: 700px;
+        margin-left: 30px;
+    }
+    .search{
+        position:relative;
+    top: -40px;
+    left: 450px;
+    }
+    .search_bar{
+        width: 200px;
+    }
+    
+    .search_button{
+        width: 100px;
+        margin-left: 3px;
+    }
+    .ddo{
+        font-size: 10px;
+    }
+    .sp_one{
+        position: absolute;
+        top: 7%;
+        left: 7%;
+    }
+    .fimg2{
+        height: 60px;
+        width: 60px;
+        position: relative;
+        top: -20px;
+        left: -150px;
+    }
+
+    .header_one{
+        height: 25vh;
+   }
+   .top_head{
+       height: 5vh;
+   }
+   .bottom_head{
+       display: flex;
+       flex-wrap: wrap;
+   }
+   .search_head{
+       width: 150px;
+       height: 20px;
+       position: relative;
+       left: 470px;
+   }
+   .header_one_logo{
+       position: relative;
+       left: 480px;
+       height: 40px;
+       width: 40px;
+   }
+   .left_head_one{
+       height: 200px;
+       width: 200px;
+       margin-top: 20px;
+   }
+   .right_head_one{
+       height: 200px;
+       width: 500px;
+       margin-top: 20px;
+   }
+   .dhlink{
+       font-size: 20px;
+   }
+   .dhright{
+       position: relative;
+       left: 100px;
+       top: 20px;
+   }
+   .dhsearch{
+       position: relative;
+       top: 10px;
+       left: 500px;
+   }
+   .dhicon{
+       margin: 0px;
+   
+   }
+   .dhilink{
+       position: relative;
+       left: 300px;
+       
+   }
+   .navlogo{
+    height: 60px;
+    width: 60px;
+   }
+   .dhisearch{
+       position: relative;
+       left: 400px;
+       top: 10px;
+       width: 200px;
+   }
+   .ficon{
+    height: 30px;
+    width: 30px;
+}
+.flink{
+    position: relative;
+    top: 50px;
+    left: 120px;
+}
+.flinkp{
+    position: relative;
+    top: 100px;
+    left: -150px;
+}
+.copy{
+    position: relative;
+    top: 200px;
+    left: 550px;
+}
+.fimg{
+    height: 80px;
+    width: 80px;
+    position: relative;
+    top: 40px;
+    left: 30px;
+    margin: 0px;
+}
+.fotext{
+    margin-left: 40px;
+    margin-top: -20px;
+}
+.ftext{
+    margin-left: 20px;
+}
+.fimg2{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 0px;
+    left: -200px;
+}
+    
 }
